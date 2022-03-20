@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+/* Навигация */
+
+.nav {
+  color: #212121;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: #2196f3;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #2196f3;
+}
+
+/* Кнопки */
+
+.item-buttons {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+}
