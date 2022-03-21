@@ -1,32 +1,42 @@
+:root {
+  --basic-text-color: #212121;
+  --accent-color-text: #2196f3;
+  --second-color-text: #757575;
+  --button-color-text: #ffffff;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--basic-text-color);
 }
 
 /* Навигация */
 
 .nav {
-  color: #212121;
+  color: var(--basic-text-color);
 }
 
 .nav .nav-link:hover,
 .nav .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color-text);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color-text);
 }
 
 /* Кнопки */
 
 .item-buttons {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--button-color-text);
+  background-color: var(--accent-color-text);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
+  color: var(--button-color-text);
+}
+
+.item {
 }
