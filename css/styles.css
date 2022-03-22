@@ -37,6 +37,3 @@ body {
 .filter-button:focus {
   color: var(--button-color-text);
 }
-
-.item {
-}
