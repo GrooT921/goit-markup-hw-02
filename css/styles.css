@@ -3,22 +3,50 @@
   --accent-color-text: #2196f3;
   --second-color-text: #757575;
   --button-color-text: #ffffff;
+  --color-section-team: #f5f4fa;
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--basic-text-color);
+  letter-spacing: 0.03em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.footer {
+  background: #2f303a;
 }
 
 /* Навигация */
 
 .nav {
   color: var(--basic-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav .nav-link:hover,
 .nav .nav-link:focus {
   color: var(--accent-color-text);
+}
+
+.link-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-contacts:hover,
@@ -31,9 +59,45 @@ body {
 .item-buttons {
   color: var(--button-color-text);
   background-color: var(--accent-color-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: var(--button-color-text);
+  background-color: var(--accent-color-text);
+}
+
+.item {
+  background: #2f303a;
+}
+
+.headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+
+.secondary header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.main-text {
+  color: var(--second-color-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team {
+  background-color: var(--color-section-team);
+}
+
+.button {
+  cursor: pointer;
 }
