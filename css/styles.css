@@ -174,7 +174,7 @@ button {
   color: var(--basic-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
 }
 
